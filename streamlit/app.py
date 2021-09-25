@@ -37,14 +37,14 @@ with st.form("values_form"):
             # make predictions on our new test data
             prediction = clf.predict(features_array)
 
-            st.write("Prediction score:", prediction[0])
-            st.write("Features list:", features_list)
-            #print("Features list:", features_list)
-            #print("Prediction score:", prediction[0])
-
             # show prediction results
             time.sleep(2)
             if prediction[0] == 1:
                 st.error("This patient has liver disease.")
             else:
                 st.success("This patient does not have liver disease.")
+
+            st.write("Prediction score:", prediction[0])
+            st.write("Features list:", features_list)
+            #print("Features list:", features_list)
+            #print("Prediction score:", prediction[0])
