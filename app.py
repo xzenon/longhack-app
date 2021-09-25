@@ -12,15 +12,19 @@ PAGES = {
 
 def main():
     st.set_page_config(page_title = "LongHack | Disease prediction")
-    st.sidebar.title("Navigation")
+    st.sidebar.markdown(
+        """
+        [<img src="https://static.tildacdn.com/tild6334-3635-4661-b233-373839373665/Longhack_big_lime1.svg?raw=true" style="max-width: 170px">](https://longhack.org/)
+        """,
+        unsafe_allow_html=True)
+    #st.sidebar.title("Navigation")
     selection = st.sidebar.radio("", list(PAGES.keys()))
 
     page = PAGES[selection]
-
     with st.spinner(f"Loading {selection} ..."):
         ast.shared.components.write_page(page)
 
-    st.sidebar.title("About")
+    st.sidebar.title("")
     st.sidebar.info(
         """
         This app is built during **Longevity Hackathon** event by **Ageless Partners** team. Learn more at
