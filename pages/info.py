@@ -26,7 +26,7 @@ Learn more about the event at [longhack.org](https://longhack.org/).
   * [Daniel Popoola](https://www.linkedin.com/in/daniel-popoola-984233140/)
   * [Diogo Pinto Flórido](https://www.linkedin.com/in/diogopintof/)
   * [Amruth Bhat](https://www.linkedin.com/in/amruth-bhat/)
-  * [SNEGA R](https://www.linkedin.com/in/snega-r-2809a11a9/)
+  * [Snega R](https://www.linkedin.com/in/snega-r-2809a11a9/)
   * [Yevgen Haletskyi](https://www.linkedin.com/in/xzenon/)
 
 ## Mentors
