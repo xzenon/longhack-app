@@ -25,7 +25,7 @@ with st.form("values_form"):
         with st.spinner(text="Please wait"):
             # get the inputs, convert to float, and store in a list
             numeric_gender_value = 1 if gender_value == "Male" else 0
-            submitted_values = [numeric_gender_value, age_value, tb_value, db_value, alkphos_value, sgpt_value, sgot_value, tp_value, alb_value, agratio_value]
+            submitted_values = [age_value, tb_value, db_value, alkphos_value, sgpt_value, sgot_value, tp_value, alb_value, agratio_value, numeric_gender_value]
             features_list = [float(i) for i in submitted_values]
 
             # converting the list to an array, reshaping into a 2D array
@@ -46,5 +46,5 @@ with st.form("values_form"):
 
             st.write("Prediction score:", prediction[0])
             st.write("Features list:", features_list)
-            #print("Features list:", features_list)
-            #print("Prediction score:", prediction[0])
+            # print("Features list:", features_list)
+            # print("Prediction score:", prediction[0])
