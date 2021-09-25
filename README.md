@@ -5,6 +5,8 @@ raise awareness, and attract talent to the field.
 
 Learn more about the event at [longhack.org](https://longhack.org/).
 
+Made with [Streamlit](https://streamlit.io/), live app is [available here](https://share.streamlit.io/xzenon/longhack-app/main/app.py).
+
 ## Team
 
   * [Jason C. Mercurio, MFE](https://www.linkedin.com/in/jasonmercurio/)
