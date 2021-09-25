@@ -24,9 +24,9 @@ Learn more about the event at [longhack.org](https://longhack.org/).
 
   * [Jason C. Mercurio, MFE](https://www.linkedin.com/in/jasonmercurio/)
   * [Daniel Popoola](https://www.linkedin.com/in/daniel-popoola-984233140/)
-  * Diogo Pinto Flórido
+  * [Diogo Pinto Flórido](https://www.linkedin.com/in/diogopintof/)
   * [Amruth Bhat](https://www.linkedin.com/in/amruth-bhat/)
-  * SNEGA R
+  * [SNEGA R](https://www.linkedin.com/in/snega-r-2809a11a9/)
   * [Yevgen Haletskyi](https://www.linkedin.com/in/xzenon/)
 
 ## Mentors
