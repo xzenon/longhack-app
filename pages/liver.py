@@ -70,5 +70,5 @@ def write():
                         st.write("Prediction score:", prediction[0])
                         #st.write("Features list:", features_list)
 
-                    # print("Features list:", features_list)
-                    # print("Prediction score:", prediction[0])
+                    #print("Features list:", features_list)
+                    #print("Prediction score:", prediction)
